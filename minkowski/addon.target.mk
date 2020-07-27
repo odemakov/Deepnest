@@ -48,7 +48,7 @@ INCS_Debug := \
 	-I/Users/jackqiao/.node-gyp/iojs-1.4.8/deps/uv/include \
 	-I/Users/jackqiao/.node-gyp/iojs-1.4.8/deps/v8/include \
 	-I$(srcdir)/node_modules/nan \
-	-I/Users/jackqiao/boost_1_62_0
+	-I/home/ubuntu/src/boost_1_62_0
 
 DEFS_Release := \
 	'-DNODE_GYP_MODULE_NAME=addon' \
@@ -94,7 +94,7 @@ INCS_Release := \
 	-I/Users/jackqiao/.node-gyp/iojs-1.4.8/deps/uv/include \
 	-I/Users/jackqiao/.node-gyp/iojs-1.4.8/deps/v8/include \
 	-I$(srcdir)/node_modules/nan \
-	-I/Users/jackqiao/boost_1_62_0
+	-I/home/ubuntu/src/boost_1_62_0
 
 OBJS := \
 	$(obj).target/$(TARGET)/addon.o \
