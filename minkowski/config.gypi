@@ -59,7 +59,7 @@
     "want_separate_host_toolset": 0,
     "want_separate_host_toolset_mkpeephole": 0,
     "xcode_version": "7.0",
-    "nodedir": "/Users/jackqiao/.node-gyp/iojs-1.4.8",
+    "nodedir": "/home/ubuntu/.node-gyp/iojs-1.4.8",
     "copy_dev_lib": "true",
     "standalone_static_library": 1,
     "target": "1.4.8",
@@ -72,7 +72,7 @@
     "also": "",
     "rollback": "true",
     "usage": "",
-    "globalignorefile": "/Users/jackqiao/.nvm/versions/node/v7.1.0/etc/npmignore",
+    "globalignorefile": "/usr/local/nvm/versions/node/v7.1.0/etc/npmignore",
     "init_author_url": "",
     "maxsockets": "50",
     "shell": "/bin/bash",
@@ -93,7 +93,7 @@
     "key": "",
     "message": "%s",
     "versions": "",
-    "globalconfig": "/Users/jackqiao/.nvm/versions/node/v7.1.0/etc/npmrc",
+    "globalconfig": "/usr/local/nvm/versions/node/v7.1.0/etc/npmrc",
     "always_auth": "",
     "cache_lock_retries": "10",
     "global_style": "",
@@ -152,6 +152,6 @@
     "tmp": "/var/folders/my/zf1p50091f7glgvp_98zz8780000gn/T",
     "unsafe_perm": "true",
     "link": "",
-    "prefix": "/Users/jackqiao/.nvm/versions/node/v7.1.0"
+    "prefix": "/usr/local/nvm/versions/node/v7.1.0"
   }
 }

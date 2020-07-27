@@ -43,10 +43,10 @@ CFLAGS_OBJC_Debug :=
 CFLAGS_OBJCC_Debug :=
 
 INCS_Debug := \
-	-I/Users/jackqiao/.node-gyp/iojs-1.4.8/include/node \
-	-I/Users/jackqiao/.node-gyp/iojs-1.4.8/src \
-	-I/Users/jackqiao/.node-gyp/iojs-1.4.8/deps/uv/include \
-	-I/Users/jackqiao/.node-gyp/iojs-1.4.8/deps/v8/include \
+	-I/home/ubuntu/.node-gyp/iojs-1.4.8/include/node \
+	-I/home/ubuntu/.node-gyp/iojs-1.4.8/src \
+	-I/home/ubuntu/.node-gyp/iojs-1.4.8/deps/uv/include \
+	-I/home/ubuntu/.node-gyp/iojs-1.4.8/deps/v8/include \
 	-I$(srcdir)/node_modules/nan \
 	-I/home/ubuntu/src/boost_1_62_0
 
@@ -89,10 +89,10 @@ CFLAGS_OBJC_Release :=
 CFLAGS_OBJCC_Release :=
 
 INCS_Release := \
-	-I/Users/jackqiao/.node-gyp/iojs-1.4.8/include/node \
-	-I/Users/jackqiao/.node-gyp/iojs-1.4.8/src \
-	-I/Users/jackqiao/.node-gyp/iojs-1.4.8/deps/uv/include \
-	-I/Users/jackqiao/.node-gyp/iojs-1.4.8/deps/v8/include \
+	-I/home/ubuntu/.node-gyp/iojs-1.4.8/include/node \
+	-I/home/ubuntu/.node-gyp/iojs-1.4.8/src \
+	-I/home/ubuntu/.node-gyp/iojs-1.4.8/deps/uv/include \
+	-I/home/ubuntu/.node-gyp/iojs-1.4.8/deps/v8/include \
 	-I$(srcdir)/node_modules/nan \
 	-I/home/ubuntu/src/boost_1_62_0
 
