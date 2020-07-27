@@ -1015,7 +1015,7 @@
 			}
 		}
 		
-		ipcRenderer.on('background-response', (event, payload) => {
+		/*ipcRenderer.on('background-response', (event, payload) => {
 			console.log('ipc response',payload);
 			if(!GA){
 				// user might have quit while we're away
@@ -1035,7 +1035,7 @@
 					displayCallback();
 				}
 			}
-		});
+		});*/
 		
 		this.launchWorkers = function(parts, config, progressCallback, displayCallback){
 			function shuffle(array) {
