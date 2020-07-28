@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "configure": "node-gyp configure --release",
-    "build": "node-gyp rebuild --target=1.4.8 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
+    "build": "CXXFLAGS='-mmacosx-version-min=10.9' LDFLAGS='-mmacosx-version-min=10.9' node-gyp rebuild --target=1.4.8 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
     "clean": "node-gyp clean configure build --verbose --target=1.4.8 --arch=ia32 --dist-url=https://atom.io/download/atom-shell",
     "pack": "build --dir",
     "dist": "build"

@@ -18,7 +18,7 @@ DEFS_Debug := \
 CFLAGS_Debug := \
 	-O0 \
 	-gdwarf-2 \
-	-mmacosx-version-min=10.7 \
+	-mmacosx-version-min=10.9 \
 	-arch x86_64 \
 	-Wall \
 	-Wendif-labels \
@@ -64,7 +64,7 @@ DEFS_Release := \
 CFLAGS_Release := \
 	-Os \
 	-gdwarf-2 \
-	-mmacosx-version-min=10.7 \
+	-mmacosx-version-min=10.9 \
 	-arch x86_64 \
 	-Wall \
 	-Wendif-labels \
@@ -130,7 +130,7 @@ LDFLAGS_Debug := \
 	-undefined dynamic_lookup \
 	-Wl,-no_pie \
 	-Wl,-search_paths_first \
-	-mmacosx-version-min=10.7 \
+	-mmacosx-version-min=10.9 \
 	-arch x86_64 \
 	-L$(builddir)
 
@@ -143,7 +143,7 @@ LDFLAGS_Release := \
 	-undefined dynamic_lookup \
 	-Wl,-no_pie \
 	-Wl,-search_paths_first \
-	-mmacosx-version-min=10.7 \
+	-mmacosx-version-min=10.9 \
 	-arch x86_64 \
 	-L$(builddir)
 
