@@ -14,7 +14,7 @@
       ],
             "include_dirs" : [
  	 		"<!(node -e \"require('nan')\")",
-            "/Users/jackqiao/boost_1_62_0/"
+            "/Users/odemakov/src/Deepnest/boost_1_62_0/"
 		]
         }
     ],
