@@ -59,7 +59,7 @@
     "want_separate_host_toolset": 0,
     "want_separate_host_toolset_mkpeephole": 0,
     "xcode_version": "7.0",
-    "nodedir": "/Users/jackqiao/.node-gyp/iojs-1.4.8",
+    "nodedir": "/Users/odemakov/.node-gyp/iojs-1.4.8",
     "copy_dev_lib": "true",
     "standalone_static_library": 1,
     "target": "1.4.8",
