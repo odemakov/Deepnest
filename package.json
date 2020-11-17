@@ -26,7 +26,7 @@
   "devDependencies": {
     "electron": "^1.4.1",
     "electron-builder": "^20.26.0",
-    "electron-rebuild": "^1.4.0"
+    "electron-rebuild": "1.11.0"
   },
   "dependencies": {
     "electron-config": "^0.2.1",
@@ -47,7 +47,8 @@
     "nodeGypRebuild": false,
     "mac": {
       "category": "public.app-category.utilities",
-      "icon": "icon.icns"
+      "icon": "icon.icns",
+      "target": "pkg"
     },
     "win": {
       "icon": "icon.ico"
