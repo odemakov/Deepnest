@@ -16,8 +16,8 @@ Deepnest is a desktop application based on [SVGNest](https://github.com/Jack000/
 
 ```
 nvm list
-nvm install 10
-nvm use 10
+nvm install 11
+nvm use 11
 
 PATH=$PATH:node_modules/.bin
 
