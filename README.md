@@ -16,11 +16,16 @@ Deepnest is a desktop application based on [SVGNest](https://github.com/Jack000/
 
 ```
 nvm list
-nvm use 8
-nvm install
+nvm install 10
+nvm use 10
 
 PATH=$PATH:node_modules/.bin
 
+CXXFLAGS="-mmacosx-version-min=10.9" LDFLAGS="-mmacosx-version-min=10.9" npm install
+
 npm run start
+npm run build
+
+mv build/Release/addon.node  minkowski/Release/
 npm run dist
 ```
